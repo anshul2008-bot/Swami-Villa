@@ -1,0 +1,170 @@
+ h1 {
+    color: rgb(212, 61, 16);
+    justify-content: right;
+    margin-left: 50px;
+}
+
+h2{
+    color: black;
+    justify-content: left;
+    margin-left: 1050px;
+    font-size: 20px;
+}
+
+h3{
+    color:rgb(47, 139, 10);
+    
+}
+
+.second {
+    background-color: antiquewhite;
+    font-family: 'Ink Free';
+}
+
+.text{
+    color: rgb(247, 9, 9);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text{
+    color:rgb(226, 12, 12);
+  background-image:url(https://i.ytimg.com/vi/0ZH00x8YVZI/maxresdefault.jpg);
+    font-family: 'Ariel';
+    size: 600px;
+    height: 700px;
+    width: 1200px;
+}
+
+p{
+    font-size: 35px;
+}
+
+.highlights{
+    font-size: 40px;
+    font-family: 'ArielBlack';
+    font-weight: bold;
+    color: blue;
+}
+
+.highlightImages{
+    height:1000px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.logo{
+    width: 120;
+    height: 100px;  
+}
+
+.layout{
+    margin-top: 10px;
+    font-family: 'Ariel';
+    font-weight: bold;
+    color: blue;   
+    font-size: 40px;
+}
+
+.line{
+    margin-top: 20px;
+}
+
+.layoutImage{
+    width:500px;
+    
+}
+
+.location{
+    font-family: 'Ariel';
+    font-weight: bold;
+    color:#b967ff;   
+    font-size: 40px;
+}
+.InsideApplicant{
+    font-family: 'Ariel';
+    font-weight: bold;
+    color:blue;   
+    font-size: 40px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    opacity : 0; 
+    font-family: 'Ariel';
+    font-weight: bold;
+    color:blue;   
+    font-size: 100px;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.3;
+}
+
+.one,two{
+    font-size: 40px;
+    font-family: 'ArielBlack';
+    font-weight: bold;
+    color: blue;   
+}
+
+.General{
+    margin-top:10px;
+
+}
+
+.amenites{
+    font-size: 40px;
+    font-family: 'ArielBlack';
+    font-weight: bold;
+    color: blue;
+}
+
+.floorPlan{
+    font-size: 40px;
+    font-family: 'ArielBlack';
+    font-weight: bold;
+    color: blue;
+}
+
+.floorPlanImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.floorPlanImage{
+    margin-left: 150px;
+}
+
+.ConText{
+    font-size: 40px;
+    font-family: 'ArielBlack';
+    font-weight: bold;
+    color:#b967ff;
+}
+
+.Contact{
+    font-family: 'ArielBlack';
+    font-weight: bold;
+    color: blue;
+}
